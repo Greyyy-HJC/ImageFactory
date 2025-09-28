@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+}
+
+body {
+  @apply bg-gradient-to-b from-[#F2F4F8] via-[#F8F9FB] to-[#E8ECF6] text-slate-900;
+}
+
+a {
+  @apply text-[#007AFF];
+}
