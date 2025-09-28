@@ -32,6 +32,12 @@ const featureCards = [
     href: '/stylization',
     accent: '风格'
   },
+  {
+    title: 'FeynDiagram',
+    description: '根据示例散射过程查看树级费曼图并导出 PDF。',
+    href: '/feyndiagram',
+    accent: '费曼图'
+  },
 ]
 
 export default function Home() {

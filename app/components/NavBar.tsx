@@ -10,7 +10,8 @@ const navItems = [
   { href: '/photocollage', label: 'PhotoCollage' },
   { href: '/imageresolution', label: 'ImageResolution' },
   { href: '/cutout', label: 'Cutout' },
-  { href: '/stylization', label: 'Stylization' }
+  { href: '/stylization', label: 'Stylization' },
+  { href: '/feyndiagram', label: 'FeynDiagram' }
 ];
 
 export default function NavBar() {
