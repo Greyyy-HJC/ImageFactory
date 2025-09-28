@@ -7,6 +7,7 @@ ImageFactory 是一组面向创作者的浏览器端图像工具。它采用 iOS
 ## 功能亮点
 
 ### 🔄 Image2PDF
+
 - 支持 PNG / JPG / PDF 混合上传，一次合并为单个 PDF；
 - 自定义分辨率比例、页面尺寸（保持原尺寸或套用 A4 横/竖版）；
 - 限制目标文件体积时自动降采样；
@@ -35,13 +36,16 @@ ImageFactory 是一组面向创作者的浏览器端图像工具。它采用 iOS
 - 提供常见 QED/Higgs 过程的树级费曼图示例；
 - 每张图可一键导出 PDF，便于教学或讲义使用。
 
+
 ## 技术栈
 
 - [Next.js 14 (App Router)](https://nextjs.org/)
 - [React 18](https://react.dev/)
 - [TypeScript](https://www.typescriptlang.org/)
 - [Tailwind CSS](https://tailwindcss.com/)
+
 - [pdf-lib](https://pdf-lib.js.org/) 等浏览器端 Canvas / Image API
+
 
 ## 快速开始
 
@@ -63,7 +67,9 @@ http://localhost:3000
 - `npm run dev`：启动开发服务器；
 - `npm run build`：生成生产构建；
 - `npm run start`：以生产模式启动 Next.js；
+
 - `npm run lint`：执行 ESLint 检查。
+
 
 ## 项目结构
 
