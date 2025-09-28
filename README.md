@@ -81,17 +81,6 @@ app/
 └── globals.css                # Tailwind & 全局样式
 ```
 
-## 部署到 GitHub Pages
-
-GitHub Pages 仅托管静态资源。若直接启用 Pages 而未提供 `index.html`，GitHub 会回退展示仓库的 README。要在 Pages 上部署本应用，需要先进行静态导出并将导出结果上传至 Pages 指定目录或分支：
-
-```bash
-npm run build
-npx next export -o out
-```
-
-然后将 `out/` 目录内容推送至 `gh-pages` 分支，或将仓库的 Pages 来源设置为 `docs/` 并把导出内容放入 `docs/`。
-
 ## 贡献
 
 欢迎提交 Issue、Feature Request 或 PR 来扩展更多图像处理能力。
