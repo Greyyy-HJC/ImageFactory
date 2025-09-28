@@ -79,6 +79,23 @@ export default function Home() {
           </Link>
         ))}
       </section>
+
+      <section className="flex justify-center">
+        <a
+          href="https://jinchen.space"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="inline-flex flex-col items-start gap-2 rounded-3xl border border-white/60 bg-white/80 px-8 py-6 shadow-[0_24px_50px_-25px_rgba(30,41,59,0.6)] backdrop-blur-xl transition hover:-translate-y-1 hover:shadow-[0_34px_70px_-28px_rgba(30,41,59,0.55)]"
+        >
+          <span className="rounded-full bg-[#007AFF]/10 px-3 py-1 text-xs font-semibold text-[#0A84FF]">
+            About Author
+          </span>
+          <p className="text-lg font-semibold text-slate-900">了解项目作者</p>
+          <p className="max-w-md text-sm text-slate-600">
+            ImageFactory 由 Jinchen 构建与维护。点击进入个人主页，查看更多项目与技术分享。
+          </p>
+        </a>
+      </section>
     </div>
   );
 }
